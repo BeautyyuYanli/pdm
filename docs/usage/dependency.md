@@ -107,6 +107,8 @@ Example:
 
 ```bash
 pdm add "wheel @ git+ssh://git@github.com/pypa/wheel.git@main"
+# or equivalent to:
+pdm add git+git@github.com:pdm-project/pdm.git
 ```
 
 ### Hide credentials in the URL
